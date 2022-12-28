@@ -1,2 +1,2 @@
-sys.stdin = open("cownomics.in", "r")
-# sys.stdout = open("cownomics.out", "w")
+sys.stdin = open("notlast.in", "r")
+# sys.stdout = open("notlast.out", "w")
