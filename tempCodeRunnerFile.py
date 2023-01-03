@@ -1,2 +1,3 @@
-sys.stdin = open("notlast.in", "r")
-# sys.stdout = open("notlast.out", "w")
+
+# sys.stdin = open("whereami.in", "r")
+# sys.stdout = open("whereami.out", "w")
