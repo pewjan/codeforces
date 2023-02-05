@@ -1,1 +1,1 @@
-total
+	freopen("test.in", "r", stdin);
