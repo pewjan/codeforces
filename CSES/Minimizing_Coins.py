@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10000000)
+sys.setrecursionlimit(1000000000)
 
 n, x = list(map(int, input().split()))
 arr = list(map(int, input().split()))
@@ -7,6 +7,7 @@ arr = list(map(int, input().split()))
 memo = {}
 
 def dp(i, total):
+    print(i, total)
     if((i, total) in memo):
         return memo[(i, total)]
     if total == x:
